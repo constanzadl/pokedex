@@ -27,7 +27,7 @@ const Pokedex = () => {
                 const pokemonIndex = poke.url.split('/')[poke.url.split('/').length - 2];
                 console.log(pokemonIndex)
                 
-                return (poke.name.includes(search)? <div key={i} className="pokeCard">
+                return (poke.name.includes(search.toLowerCase())? <div key={i} className="pokeCard">
                     <img src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonIndex}.png`} alt={poke.name} />
                     <p>{poke.name}</p>
                 </div> : <></>)
