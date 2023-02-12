@@ -1,0 +1,58 @@
+@font-face {
+  font-family: "Bodoniflf";
+  src: url("../public/fonts/bodoniflf-font/BodoniflfBold-MVZx.ttf"), url("../public/fonts/bodoniflf-font/BodoniflfBolditalic-K7dD.ttf"), url("../public/fonts/bodoniflf-font/BodoniflfItalic-2OEw.ttf"), url("../public/fonts/bodoniflf-font/BodoniflfRoman-vmAD.ttf");
+  }
+  @font-face {
+    font-family: "Pokemon";
+    src: url("../public/fonts/pokemon-solid-font/PokemonSolidNormal-xyWR.ttf");
+    }
+    @font-face {
+      font-family: "Sora";
+      src: url("../public/fonts/Sora/Sora-VariableFont_wght.ttf");
+      }
+
+body {
+  margin: 0;
+}
+
+.menu {
+  background-color: red;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.title {
+  font-size: 3rem;
+  margin: 0;
+  font-family: 'Pokemon', Arial, sans-serif;
+}
+.pokeCard {
+  font-family: 'Bodoniflf', Arial, sans-serif;
+  border: 2px solid red;
+  border-radius:  10px;
+  padding: 10px;
+  width: 25%;
+  margin: 5px;
+}
+.pokeCard p{
+  margin: 0;
+  font-size: 2rem;
+}
+.pokeCard img{
+  width: 20%;
+}
+.pokedex {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+.menuOption {
+  font-size: 1rem;
+  font-family: 'Sora', Arial, sans-serif;
+}
+
+
